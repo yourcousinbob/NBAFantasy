@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+module_name = "fantasy_nba.definitions"
+code_location_name = "fantasy_nba"
+
+[tool.black]
+line-length = 80
